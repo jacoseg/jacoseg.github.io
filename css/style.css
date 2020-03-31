@@ -15,6 +15,19 @@ html{
     padding-top: 20%;
     padding-bottom: 20%;
 }
+@media only sceen and (max-widht: 600px){
+    .header-site{
+        background-image: url("../img/testbanner-small.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+}
+
 .bg-dark{
     background-color: black !important;
 }
