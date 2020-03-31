@@ -5,20 +5,18 @@ body{
 html{
     scroll-behavior:smooth;
 }
+.header-site{
+    background-image: url("../img/testbanner.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
 .bg-dark{
     background-color: black !important;
-}
-
-.carousel-item{
-    max-height: 80vh;
-}
-.carousel-item img{
-    width: 100%;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
 }
 .card-deck{
     margin-top: 5vh;
