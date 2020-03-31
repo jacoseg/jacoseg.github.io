@@ -35,9 +35,9 @@
                         Catálogo de Produtos
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="botas.html">Botas</a>
-                        <a class="dropdown-item" href="luvas.html">Luvas</a>
-                        <a class="dropdown-item" href="capacetes.html">Capacetes</a>
+                        <a class="dropdown-item" href="#">Botas</a>
+                        <a class="dropdown-item" href="#">Luvas</a>
+                        <a class="dropdown-item" href="#">Capacetes</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -117,54 +117,55 @@
                 </div>
             </div>
         </div>
-        <h2 class="title">Fale conosco</h2>
-        <div id="contato">
-            <div class="card-columns">
-                <div class="card">
-
-                    <div class="card-body">
-                        <h5 class="card-title">Email</h5>
-                        <p class="card-text">jacoseg.epi@gmail.com</p>
-                        <a href="https://mailto:jacoseg.epi@gmail.com" class="btn btn-primary"
-                            target="_blank">Acessar</a>
+        <!--Contatos-->
+        <div class="container" id="contato">
+            <div class="row padding-contatos" id="contatos">
+                <div class="col-sm-6 padding-5">
+                    <h2 class="text-left">Contatos</h2><br>
+                    <div class="col-9 mt-0"><img src="./img/localização.png" class="rounded-circle border border-dark mx-auto d-block" alt="..."></div>
+                    <div class="col-9 mt-2"><p class="text-center">R. Cel. Hermenegildo, 50 - Centro, Jacobina - BA, 44700-000</p></div>
+                    
+                </div>
+                <!--Form-->
+                <div class="col-sm-6">
+                    <h2 class="text-left">Fale comigo</h2><br>
+                    <div class="">
+                        <form id="fs-frm" name="complaint-form" accept-charset="utf-8"
+                            action="https://formspree.io/contato@gabrielamorim.adv.br" method="post">
+                            <fieldset id="fs-frm-inputs">
+                                <label for="full-name">Nome completo</label>
+                                <input type="text" name="name" id="full-name" class="form-control"
+                                    placeholder="ex.: João" required="">
+                                <label for="email-address">Endereço de E-mail</label>
+                                <input type="email" name="_replyto" id="email-address" class="form-control"
+                                    placeholder="email@dominio.com" required="">
+                                <label for="telephone">Número de telefone</label>
+                                <input type="telephone" name="telephone" id="telephone" class="form-control"
+                                    placeholder="(99) 9 9999-9999">
+                                <label for="complaint">Como podemos te ajudar?</label>
+                                <textarea rows="6" name="complaint" id="complaint" class="form-control"
+                                    placeholder="" required=""
+                                    style="height:15vh; resize: none"></textarea>
+                                <input type="hidden" name="_subject" id="email-subject"
+                                    value="Complaint Form Submission">
+                            </fieldset>
+                            <div class="padding-1">
+                                <input type="submit" class="btn btn-primary mb-2 " value="Enviar">
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>Estamos prontos para atender tanto você quanto sua empresa!</p>
-                    </blockquote>
-                </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>Para um contato mais direto entre nos mande uma mensagem em nosso Whatsapp</p>
-                        <a href="https://api.whatsapp.com/send?phone=557436219937" class="btn btn-primary" target="_blank">Contatar</a>
-                    </blockquote>
-                </div>
-                <div class="card bg-primary text-black text-center p-1">
-                    <blockquote class="blockquote mb-0">
-                        <p> Funcionamos de segunda à sexta das 08:00 às 18:00</p>
-                        <p> Aos sábados das 08:00 às 12:30</p>
-                    </blockquote>
-                </div>
-                <div class="card p-3 text-right">
-                    <blockquote class="blockquote mb-0">
-                        <p>Também estamos no instagram, venha nos seguir!</p>
-                        <a href="https://www.instagram.com/jacoseg/" class="btn btn-primary" target="_blank">Seguir</a>
-                    </blockquote>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Localização</h5>
-                        <p class="card-text">Nossa loja fica no centro de Jacobina, na Rua Coronel Hermenegildo, número 50. Venha fazer uma visita!</p>
-                    </div>
-                </div>
+                <div class="w-70"></div>
             </div>
         </div>
+        <!--Form-->
+        <!--Contatos-->
     </main>
     <!-- Footer -->
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50 ">
         <div class="container text-center">
             <small>Copyright &copy; <a href="https://jacoseg.com.br/"> JACOSEG</a></small>
+            <small>Desenvolvido por <a href="https://www.instagram.com/void.sw/" target="_blank"> V Ø I D</a></small>
         </div>
     </footer>
     <!-- Footer -->
@@ -179,6 +180,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/86530e25de.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

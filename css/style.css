@@ -41,9 +41,10 @@ main{
 .btn{
     background-color: black !important;
     border-color: black !important;
+    margin-top: 1vh;
 }
 .btn:hover{
-    background-color: yellow !important;
+    background-color: white !important;
     color: black !important;
     border-color: black !important;
 }
@@ -51,7 +52,7 @@ main{
     background-color: white !important;
 }
 #contato{
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
 }
 .navbar-brand{
     margin-left: 11.25vw;
