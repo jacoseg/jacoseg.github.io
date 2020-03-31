@@ -1,6 +1,6 @@
 body{
     height: 100%;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
 }
 html{
     scroll-behavior:smooth;
@@ -8,6 +8,7 @@ html{
 .bg-dark{
     background-color: black !important;
 }
+
 .carousel-item{
     max-height: 80vh;
 }
@@ -57,9 +58,7 @@ main{
 .navbar-brand{
     margin-left: 11.25vw;
 }
-.nav-link{
-    color: white !important;
-}
+
 .nav-link:hover{
     color: yellow !important;
 }

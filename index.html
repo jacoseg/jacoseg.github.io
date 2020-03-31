@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&display=swap"
+        rel="stylesheet">
     <link rel="shortcut icon" href="./img/favicon.png" />
 
     <title>JACOSEG - Página Inicial</title>
@@ -30,7 +32,7 @@
                     <a class="nav-link" href="index.html">Pagina Inicial<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Catálogo de Produtos
                     </a>
@@ -41,7 +43,7 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    <a class="nav-link dropdown-toggle disabled" href="#" id="navbarDropdownMenuLink" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Parceiros
                     </a>
@@ -120,11 +122,29 @@
         <!--Contatos-->
         <div class="container" id="contato">
             <div class="row padding-contatos" id="contatos">
-                <div class="col-sm-6 padding-5">
+                <div class="col-md-auto padding-5">
                     <h2 class="text-left">Contatos</h2><br>
-                    <div class="col-9 mt-0"><img src="./img/localização.png" class="rounded-circle border border-dark mx-auto d-block" alt="..."></div>
-                    <div class="col-9 mt-2"><p class="text-center">R. Cel. Hermenegildo, 50 - Centro, Jacobina - BA, 44700-000</p></div>
-                    
+                    <div class="col-md-auto mt-0"><img src="./img/localização.png"
+                            class="rounded-circle border border-dark mx-auto d-block" alt="..."></div>
+                    <div class="col-md-auto mt-2">
+                        <p class="text-center">R. Cel. Hermenegildo, 50 - Centro, Jacobina - BA, 44700-000</p>
+                    </div>
+
+                    <div class="row justify-content-md-center">
+
+                        <div class="col-md-auto">
+                            <p>Mande-nos uma mensagem no <a href="https://api.whatsapp.com/send?phone=557436219937"
+                                    target="_blank">whatsapp <i class="fab fa-whatsapp"></i></a> ou nos <a
+                                    href="tel:74-3621-9937">ligue <i class="fas fa-phone"></i></a></p>
+                        </div>
+
+                        
+                    </div>
+                    <div class="row justify-content-md-center">
+                    <div class="col-md-auto">
+                        <p>(74)3621-9937</p>
+                    </div>
+                </div>
                 </div>
                 <!--Form-->
                 <div class="col-sm-6">
@@ -143,9 +163,8 @@
                                 <input type="telephone" name="telephone" id="telephone" class="form-control"
                                     placeholder="(99) 9 9999-9999">
                                 <label for="complaint">Como podemos te ajudar?</label>
-                                <textarea rows="6" name="complaint" id="complaint" class="form-control"
-                                    placeholder="" required=""
-                                    style="height:15vh; resize: none"></textarea>
+                                <textarea rows="6" name="complaint" id="complaint" class="form-control" placeholder=""
+                                    required="" style="height:15vh; resize: none"></textarea>
                                 <input type="hidden" name="_subject" id="email-subject"
                                     value="Complaint Form Submission">
                             </fieldset>
