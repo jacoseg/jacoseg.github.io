@@ -15,7 +15,7 @@ html{
     padding-top: 20%;
     padding-bottom: 20%;
 }
-@media only screen and (min-device-width: 600px){
+@media only screen and (min-device-width: 1000px){
     .header-site{
         background-image: url("../img/testbanner.jpg");
         background-position: center top;
