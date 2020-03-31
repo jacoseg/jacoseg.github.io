@@ -9,7 +9,7 @@ html{
     background-image: url("../img/testbanner-small.jpg");
     background-position: center top;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     color: white;
     padding-top: 20%;
